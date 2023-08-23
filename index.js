@@ -1,7 +1,7 @@
 const express = require("express") 
 const {somar} = require("./calculadora")
 const app = express()
-const porta = 3000;
+const porta = 3001;
 
 
 app.get("/rota", (requisicao, resposta)=>{
